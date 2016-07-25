@@ -15,6 +15,9 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  background-image: url("space.jpg");
+  background-color: #cccccc;
+  background-size: cover;
 }
 
 section {
@@ -83,11 +86,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
+  color: black;
   a {
-    color: $gray;
+    color: black;
     &:hover {
-      color: $gray-darker;
+      color: oldlace;
     }
   }
   small {
@@ -193,4 +196,20 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+.jumbotron {
+  background-image: url(star.jpg);
+  height: 250px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  background-position: center center;
+  //border-radius: 0 !important;
+  font-weight: bold;
+  text-align: center;
+  
+  p { 
+  color: white;
+  }
 }
