@@ -24,6 +24,7 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
 config.public_file_server.enabled = true
 config.serve_static_assets = true
+config.serve_static_files = true
 
 
   # Compress JavaScripts and CSS.
