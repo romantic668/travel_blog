@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial: sample application
+# Ruby on Rails Tutorial: travel blog
 
 This travel blog is adapted from
 [*Ruby on Rails Tutorial:
